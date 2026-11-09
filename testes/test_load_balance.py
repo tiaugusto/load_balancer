@@ -2,8 +2,11 @@ import socket
 import threading
 import unittest
 from concurrent.futures import ThreadPoolExecutor
+from collections import Counter
+from types import SimpleNamespace
 
 from load_balance import LoadBalancer, close_connection
+from politcs import RoundRobin
 
 
 def receive_all(connection):
@@ -273,6 +276,66 @@ class LoadBalancerTests(unittest.TestCase):
         self.assertEqual(second.recv(1), b"")
         first.sendall(b"continua")
         self.assertEqual(receive_exact(first, 8), b"continua")
+
+    def test_round_robin_routes_in_order_and_skips_down_server(self):
+        def identify(name):
+            def handler(connection):
+                request = receive_all(connection)
+                connection.sendall(name + request)
+            return handler
+
+        first = self.backend(identify(b"A:"))
+        down = self.backend(identify(b"DOWN:"))
+        second = self.backend(identify(b"B:"))
+        servers = [SimpleNamespace(ip=backend.address[0], port=backend.address[1],
+                                   status_server=status)
+                   for backend, status in [(first, "UP"), (down, "DOWN"),
+                                           (second, "UP")]]
+        policy = RoundRobin(servers)
+        balancer = self.balancer(policy.select_server)
+        replies = []
+        for _ in range(6):
+            with socket.create_connection(balancer.address, timeout=5) as client:
+                client.sendall(b"pedido")
+                client.shutdown(socket.SHUT_WR)
+                replies.append(receive_all(client))
+        self.assertEqual(replies, [b"A:pedido", b"B:pedido"] * 3)
+        with policy.lock:
+            for server in servers:
+                server.status_server = "DOWN"
+        client = self.client(balancer)
+        self.assertEqual(client.recv(1), b"")
+
+    def test_round_robin_distributes_concurrent_clients(self):
+        def identify(name):
+            def handler(connection):
+                request = receive_exact(connection, 2)
+                connection.sendall(name + request)
+                receive_all(connection)
+            return handler
+
+        first = self.backend(identify(b"A"))
+        second = self.backend(identify(b"B"))
+        servers = [SimpleNamespace(ip=backend.address[0], port=backend.address[1],
+                                   status_server="UP") for backend in [first, second]]
+        policy = RoundRobin(servers)
+        balancer = self.balancer(policy.select_server)
+        barrier = threading.Barrier(12)
+
+        def exchange(index):
+            with socket.create_connection(balancer.address, timeout=5) as client:
+                request = ("%02d" % index).encode()
+                client.sendall(request)
+                response = receive_exact(client, 3)
+                self.assertEqual(response[1:], request)
+                barrier.wait(timeout=5)
+                client.shutdown(socket.SHUT_WR)
+                self.assertEqual(receive_all(client), b"")
+                return response[:1]
+
+        with ThreadPoolExecutor(max_workers=12) as executor:
+            choices = list(executor.map(exchange, range(12)))
+        self.assertEqual(Counter(choices), {b"A": 6, b"B": 6})
 
 
 if __name__ == "__main__":

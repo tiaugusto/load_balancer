@@ -50,8 +50,9 @@ python3 load_balance.py --host 127.0.0.1 --port 8000 --server-ip 127.0.0.1 --ser
 ```
 
 Os clientes devem conectar somente em `127.0.0.1:8000`. O destino fixo da CLI
-permite executar a #4 enquanto tabela, servidores e políticas são desenvolvidos.
-Ele não implementa distribuição de carga. `Ctrl+C` fecha a escuta, interrompe
+continua funcionando para testar com um único servidor. A #6 acrescenta seleção
+Round-Robin para vários destinos; veja [round-robin.md](round-robin.md).
+`Ctrl+C` fecha a escuta, interrompe
 conexões ativas e espera o encerramento das threads.
 
 ## Integração com tabela e políticas
@@ -64,7 +65,8 @@ conexões ativas e espera o encerramento das threads.
 - `release_server(address)` desfaz essa reserva exatamente uma vez, inclusive em
   falha ao conectar ao destino. A liberação também precisa da sincronização da tabela.
 
-Essas funções serão adaptadores para a tabela da #5 e as políticas das #6/#7.
+Essas funções permitem integrar a tabela da #5 e as políticas de seleção.
+O Round-Robin da #6 já fornece `select_server()`; Least Connections fica na #7.
 Elas devem ser rápidas e não bloquear em operações de rede. Nenhuma cópia da classe
 `Server` foi adicionada; a branch do Gabriel pode evoluir sem dependência circular.
 Os contadores e o status UP/DOWN continuam sob responsabilidade da tabela/monitoramento.
@@ -91,7 +93,7 @@ permanecem abertas até os participantes encerrarem ou o LB ser desligado.
 Somente biblioteca padrão do Python 3; sem dependências adicionais:
 
 ```sh
-python3 -m unittest discover -s testes -p 'test_load_balance.py' -v
+python3 -m unittest discover -s testes -v
 ```
 
 Os testes usam sockets TCP reais em portas locais temporárias. Cobrem concorrência,
@@ -99,5 +101,5 @@ roteamento por conexão, dados binários/maiores que o buffer, escritas fragment
 respostas antes do envio do cliente, EOF parcial, indisponibilidade, liberação de
 reservas, limite de clientes e desligamento com conexões ociosas.
 
-A integração com a tabela do Gabriel, a decisão de protocolo da #1 e a execução
-nos servidores do DInf continuam pendentes. Esta entrega cobre o transporte da #4.
+A integração com a tabela do Gabriel, os contadores da #5, a decisão de protocolo
+da #1 e a execução nos servidores do DInf continuam pendentes.

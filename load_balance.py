@@ -5,6 +5,9 @@ import ipaddress
 import logging
 import socket
 import threading
+from types import SimpleNamespace
+
+from politcs import RoundRobin
 
 
 logger = logging.getLogger("Load_balance")
@@ -179,20 +182,43 @@ def port(value):
     return number
 
 
+def server_address(value):
+    ip_text, separator, port_text = value.partition(":")
+    if not separator:
+        raise argparse.ArgumentTypeError("Use IP:PORTA, por exemplo 127.0.0.1:9001")
+    return (ipv4(ip_text), port(port_text))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", type=ipv4, default="127.0.0.1")
     parser.add_argument("--port", type=port, default=8000)
-    parser.add_argument("--server-ip", type=ipv4, required=True)
-    parser.add_argument("--server-port", type=port, required=True)
+    parser.add_argument("--policy", choices=["round-robin"], default="round-robin")
+    parser.add_argument("--server", type=server_address, action="append",
+                        help="IP:PORTA de um servidor; repita para adicionar outros")
+    parser.add_argument("--server-ip", type=ipv4)
+    parser.add_argument("--server-port", type=port)
     args = parser.parse_args()
-    # Destino fixo permite validar a #4 antes da integração com tabela/políticas.
-    def select_fixed_server():
-        return (args.server_ip, args.server_port)
+    if args.server:
+        if args.server_ip is not None or args.server_port is not None:
+            parser.error("Use --server ou o par --server-ip/--server-port")
+        addresses = args.server
+    elif args.server_ip is not None and args.server_port is not None:
+        addresses = [(args.server_ip, args.server_port)]
+    else:
+        parser.error("Informe --server IP:PORTA ou --server-ip e --server-port")
+    if len(set(addresses)) != len(addresses):
+        parser.error("Não repita o mesmo IP:PORTA na lista de servidores")
+
+    # Configuração provisória da CLI, até a integração com a tabela da #5.
+    servers = [SimpleNamespace(ip=ip, port=number, status_server="UP")
+               for ip, number in addresses]
+    policy = RoundRobin(servers)
 
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s | %(levelname)s | %(message)s")
-    balancer = LoadBalancer((args.host, args.port), select_fixed_server)
+    logger.info("Política selecionada: %s", args.policy)
+    balancer = LoadBalancer((args.host, args.port), policy.select_server)
     try:
         balancer.serve_forever()
     except KeyboardInterrupt:
