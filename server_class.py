@@ -1,108 +1,225 @@
+import json
+import threading
+from pathlib import Path
+
 from configure_logs import server_logs
 
-####s seguintes informações devem estar presentes:
-####s• Número total de conexões (mantidas pelo LB);
-####s• Quantidade de conexões de cada servidor;
-####s• Endereço IP e Porta de cada servidor;
-####s• Status de cada servidor (UP/DOWN);
 
 class Server:
-    #rever essas definições depois
-    def __init__(self, id, status_server="DOWN", ip_inserir, port):
+
+    def __init__(self, id, ip, port, status_server="DOWN"):
         self.id = id
         self.status_server = status_server
-        self.num_total_connections =0
-        self.qtde_connections =0
-        self.ip = ip_inserir
+        self.num_connections = 0
+        self.ip = ip
         self.port = port
 
-#Criar servers 
-
-    @staticmethod
-    def servers_create(number):
-        server_list = []
-
-        for qtde in range(number):
-            server_new = Server(qtde, "DOWN")
-            server_list.append(server_new)
-            server_logs.info(f"Servidor {server_new.id} foi criado!")
-
-        return server_list
-
-    @staticmethod
-    def destroy_all_server(server_list):
-        server_list.clear()
-        server_logs.info("Todos os servidores foram destruídos")
-
-#Ativar e desativar servers
-
-    @staticmethod
-    def active_all_servers(server_list):
-        for server in server_list:
-            server.status_server = "UP"
-            server_logs.info(f"Servidor {server.id} foi ativado!")
-
-        return "OK"
-
-    @staticmethod
-    def desactive_all_servers(server_list):
-        for server in server_list:
-            server.status_server = "DOWN"
-            server_logs.info(f"Servidor {server.id} foi desativado!")
+    def get_address(self):
+        return (self.ip, self.port)
 
 
-        return "OK"
+class ServerTable:
 
-    @staticmethod
-    def active_server(server_list, id):
-        for server in server_list:
-            if server.id == id:
+    def __init__(self, filename="servers.json"):
+        self.filename = Path(__file__).parent / filename
+        self.servers = []
+        self.num_total_connections = 0
+        self.lock = threading.Lock()
+
+        self.load()
+
+    #Carregar e salvar JSON
+
+    def load(self):
+        with self.lock:
+            if not self.filename.exists():
+                self._save()
+                return
+
+            with open(self.filename, "r", encoding="utf-8") as file:
+                data = json.load(file)
+
+            self.num_total_connections = 0
+
+            self.servers = []
+
+            for item in data.get("servers", []):
+                server = Server(
+                    item["id"],
+                    item["ip"],
+                    item["port"],
+                    item["status_server"]
+                )
+
+                # Conexões antigas não existem após reiniciar o LB.
+                server.num_connections = 0
+
+                self.servers.append(server)
+
+            self._save()
+
+    def _save(self):
+        data = {
+            "num_total_connections": self.num_total_connections,
+            "servers": [
+                {
+                    "id": server.id,
+                    "ip": server.ip,
+                    "port": server.port,
+                    "status_server": server.status_server,
+                    "num_connections": server.num_connections
+                }
+                for server in self.servers
+            ]
+        }
+
+        with open(self.filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4)
+
+    # Criar e descriar os servidores
+
+    def servers_create(self, ip, port):
+        with self.lock:
+            server_id = max(
+                (server.id for server in self.servers),
+                default=-1
+            ) + 1
+
+            server_new = Server(server_id, ip, port)
+
+            if any(s.get_address() == server_new.get_address()
+                   for s in self.servers):
+                return "Servidor já cadastrado"
+
+            self.servers.append(server_new)
+            self._save()
+
+            server_logs.info(f"Servidor {server_id} foi criado!")
+
+            return "OK"
+
+    def destroy_all_server(self):
+        with self.lock:
+            if self.num_total_connections > 0:
+                return "Existem conexões ativas"
+
+            self.servers.clear()
+            self._save()
+
+            server_logs.info("Todos os servidores foram destruídos")
+
+            return "OK"
+
+    # Ativar e desativar servidores
+
+    def active_all_servers(self):
+        with self.lock:
+            for server in self.servers:
                 server.status_server = "UP"
                 server_logs.info(f"Servidor {server.id} foi ativado!")
 
+            self._save()
+            return "OK"
 
-                return "OK"
-
-
-        return "Servidor não encontrado"
-
-    @staticmethod
-    def desactive_server(server_list, id):
-        for server in server_list:
-            if server.id == id:
+    def desactive_all_servers(self):
+        with self.lock:
+            for server in self.servers:
                 server.status_server = "DOWN"
                 server_logs.info(f"Servidor {server.id} foi desativado!")
 
-                return "OK"
+            self._save()
+            return "OK"
 
-        return "Servidor não encontrado"
+    def active_server(self, id):
+        return self.update_status(id, "UP")
 
-#trocar informações dos servers
+    def desactive_server(self, id):
+        return self.update_status(id, "DOWN")
 
+    def update_status(self, id, status):
+        with self.lock:
+            for server in self.servers:
+                if server.id == id:
+                    server.status_server = status
+                    self._save()
 
-    def set_port(server_list, id, port):
-        for server in server_list:
-            if server.id == id:
-                save_port = server.port
-                server.port = port
-                server_logs.info(f"Porta do servidor {server.id} trocada de {save_port} para {server.port}!")
+                    server_logs.info(
+                        f"Servidor {id} alterado para {status}"
+                    )
 
-                return "OK"
+                    return "OK"
 
-        return "Servidor não encontrado"
+            return "Servidor não encontrado"
 
+    #Alterar informações dos servidores
 
-    def set_port(server_list, id, ip):
-        for server in server_list:
-            if server.id == id:
-                save_ip = server.ip
-                server.ip = ip
-                server_logs.info(f"IP do servidor {server.id} trocada de {save_ip} para {server.ip}!")
+    def set_port(self, id, port):
+        with self.lock:
+            for server in self.servers:
+                if server.id == id:
+                    old_port = server.port
+                    server.port = port
+                    self._save()
 
-                return "OK"
+                    server_logs.info(
+                        f"Porta do servidor {id} trocada de "
+                        f"{old_port} para {port}!"
+                    )
 
-        return "Servidor não encontrado"
+                    return "OK"
 
+            return "Servidor não encontrado"
 
+    def set_ip(self, id, ip):
+        with self.lock:
+            for server in self.servers:
+                if server.id == id:
+                    old_ip = server.ip
+                    server.ip = ip
+                    self._save()
 
+                    server_logs.info(
+                        f"IP do servidor {id} trocado de "
+                        f"{old_ip} para {ip}!"
+                    )
 
+                    return "OK"
+
+            return "Servidor não encontrado"
+
+    # Controle de conexões
+
+    def register_connection(self, id):
+        with self.lock:
+            for server in self.servers:
+                if server.id == id:
+                    if server.status_server != "UP":
+                        return False
+
+                    server.num_connections += 1
+                    self.num_total_connections += 1
+
+                    self._save()
+                    return True
+
+            return False
+
+    def release_connection(self, id):
+        with self.lock:
+            for server in self.servers:
+                if server.id == id:
+                    if server.num_connections > 0:
+                        server.num_connections -= 1
+                        self.num_total_connections -= 1
+
+                        self._save()
+                        return True
+
+                    return False
+
+            return False
+
+#consultar os servidores, se está tudo ok
+    def get_servers(self):
+        with self.lock:
+            return list(self.servers)
