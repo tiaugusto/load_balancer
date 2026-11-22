@@ -3,17 +3,27 @@
     "servers": [
         {
             "id": 0,
-            "ip": "192.168.0.10",
-            "port": 1234,
+            "ip": "127.0.0.1",
+            "port": 65532,
             "status_server": "UP",
-            "num_connections": 0
+            "num_connections": 0,
+            "_enable": "YES"
         },
         {
             "id": 1,
-            "ip": "192.168.0.11",
-            "port": 1235,
-            "status_server": "DOWN",
-            "num_connections": 0
+            "ip": "127.0.0.1",
+            "port": 65522,
+            "status_server": "UP",
+            "num_connections": 0,
+            "_enable": "YES"
+        },
+        {
+            "id": 4,
+            "ip": "127.0.0.1",
+            "port": 65111,
+            "status_server": "UP",
+            "num_connections": 0,
+            "_enable": "YES"
         }
     ]
 }

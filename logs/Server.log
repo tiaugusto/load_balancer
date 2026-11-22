@@ -1,0 +1,257 @@
+2026-11 -22 01:10:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:10:43 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:11:21 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:23:17 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:25:13 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:25:13 |INFO | Servidor 0 alterado para UP
+2026-11 -22 01:29:57 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:29:57 |INFO | Servidor 0 alterado para UP
+2026-11 -22 01:32:48 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 01:33:26 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:24:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:24:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:24:20 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 02:24:20 |INFO | Servidor 0 alterado para UP
+2026-11 -22 02:25:36 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:25:36 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:25:36 |INFO | Server Escutando em 127.0.0.1 e 1234
+2026-11 -22 02:25:37 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 02:25:37 |INFO | Servidor 0 alterado para UP
+2026-11 -22 02:27:19 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:27:19 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:27:19 |ERROR | Falha ao iniciar servidor 0. Código de saída: 1
+2026-11 -22 02:27:38 |INFO | Servidor 5 foi criado!
+2026-11 -22 02:28:20 |INFO | Processo do servidor 5 encerrado!
+2026-11 -22 02:28:20 |INFO | Servidor 5 foi destruído!
+2026-11 -22 02:28:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:28:35 |ERROR | Falha ao iniciar servidor 0. Código de saída: 1
+2026-11 -22 02:28:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:28:35 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 02:28:36 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 02:28:36 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:28:36 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 02:28:36 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 02:28:51 |INFO | Processo do servidor 0 encerrado!
+2026-11 -22 02:28:51 |INFO | Servidor 0 foi desativado!
+2026-11 -22 02:28:51 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 02:28:51 |INFO | Servidor 1 foi desativado!
+2026-11 -22 02:28:51 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 02:28:51 |INFO | Servidor 4 foi desativado!
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:29:10 |ERROR | Falha ao iniciar servidor 0. Código de saída: 1
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:29:10 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 02:29:10 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 02:29:10 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 02:29:11 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 02:29:59 |INFO | Processo do servidor 0 encerrado!
+2026-11 -22 02:29:59 |INFO | Servidor 0 foi desativado!
+2026-11 -22 02:29:59 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 02:29:59 |INFO | Servidor 1 foi desativado!
+2026-11 -22 02:29:59 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 02:29:59 |INFO | Servidor 4 foi desativado!
+2026-11 -22 02:30:03 |INFO | Processo do servidor 0 encerrado!
+2026-11 -22 02:30:03 |INFO | Servidor 0 foi desativado!
+2026-11 -22 02:30:03 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 02:30:03 |INFO | Servidor 1 foi desativado!
+2026-11 -22 02:30:03 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 02:30:03 |INFO | Servidor 4 foi desativado!
+2026-11 -22 15:34:27 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:34:53 |INFO | Servidor 5 foi criado!
+2026-11 -22 15:35:55 |INFO | Processo do servidor 5 encerrado!
+2026-11 -22 15:35:55 |INFO | Servidor 5 foi destruído!
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:36:09 |INFO | Server Escutando em 127.0.0.1 e 1234
+2026-11 -22 15:36:09 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:36:09 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 15:36:09 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:36:09 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 15:36:09 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:38:06 |INFO | Servidor 127.0.0.1:1235 encerrado
+2026-11 -22 15:38:06 |INFO | Servidor 127.0.0.1:1255 encerrado
+2026-11 -22 15:38:06 |INFO | Servidor 127.0.0.1:1234 encerrado
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:39:35 |INFO | Server Escutando em 127.0.0.1 e 1234
+2026-11 -22 15:39:35 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:39:35 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 15:39:35 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:39:35 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 15:39:35 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:41:49 |INFO | Servidor 127.0.0.1:1255 encerrado
+2026-11 -22 15:41:49 |INFO | Servidor 127.0.0.1:1235 encerrado
+2026-11 -22 15:41:49 |INFO | Servidor 127.0.0.1:1234 encerrado
+2026-11 -22 15:41:50 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:41:50 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:41:50 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:41:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:41:51 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:41:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:41:51 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:42:51 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:42:51 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:42:51 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:43:26 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:43:27 |INFO | Server Escutando em 127.0.0.1 e 1234
+2026-11 -22 15:43:27 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:43:27 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 15:43:27 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:43:27 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 15:43:27 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:43:41 |INFO | Servidor 127.0.0.1:1235 encerrado
+2026-11 -22 15:43:41 |INFO | Servidor 127.0.0.1:1234 encerrado
+2026-11 -22 15:43:41 |INFO | Servidor 127.0.0.1:1255 encerrado
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:44:26 |INFO | Server Escutando em 127.0.0.1 e 1234
+2026-11 -22 15:44:26 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:44:26 |INFO | Server Escutando em 127.0.0.1 e 1235
+2026-11 -22 15:44:27 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 15:44:27 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 15:44:27 |INFO | Server Escutando em 127.0.0.1 e 1255
+2026-11 -22 15:44:27 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 15:44:30 |INFO | Servidor 127.0.0.1:1235 encerrado
+2026-11 -22 15:44:30 |INFO | Servidor 127.0.0.1:1255 encerrado
+2026-11 -22 15:44:30 |INFO | Servidor 127.0.0.1:1234 encerrado
+2026-11 -22 18:45:28 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:45:28 |INFO | Server Escutando em 127.0.0.1 e 8001
+2026-11 -22 18:47:16 |INFO | Servidor 127.0.0.1:8001 encerrado
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:48:28 |INFO | Server Escutando em 127.0.0.1 e 65532
+2026-11 -22 18:48:28 |INFO | Tentativa redundante de habilitar servidor 0
+2026-11 -22 18:48:28 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:48:28 |INFO | Server Escutando em 127.0.0.1 e 65522
+2026-11 -22 18:48:28 |INFO | Tentativa redundante de habilitar servidor 1
+2026-11 -22 18:48:28 |INFO | Processo do servidor 1 iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:48:28 |INFO | Server Escutando em 127.0.0.1 e 65111
+2026-11 -22 18:48:28 |INFO | Tentativa redundante de habilitar servidor 4
+2026-11 -22 18:48:28 |INFO | Processo do servidor 4 iniciado!
+2026-11 -22 18:50:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:50:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:50:25 |INFO | Tentativa redundante de habilitar servidor 0
+2026-11 -22 18:50:25 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 18:50:25 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:50:25 |ERROR | Falha ao iniciar servidor 1. Código de saída: 1
+2026-11 -22 18:50:25 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:50:25 |ERROR | Falha ao iniciar servidor 4. Código de saída: 1
+2026-11 -22 18:51:30 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:51:30 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:51:30 |INFO | Tentativa redundante de habilitar servidor 0
+2026-11 -22 18:51:30 |INFO | Processo do servidor 0 iniciado!
+2026-11 -22 18:51:30 |INFO | Tentativa redundante de desabilitar servidor 1
+2026-11 -22 18:51:30 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 18:51:30 |INFO | Tentativa redundante de desabilitar servidor 4
+2026-11 -22 18:51:30 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 18:51:43 |INFO | Servidor 0 desabilitado!
+2026-11 -22 18:51:43 |INFO | Processo do servidor 0 encerrado!
+2026-11 -22 18:51:43 |INFO | Servidor 0 foi desativado!
+2026-11 -22 18:51:43 |INFO | Tentativa redundante de desabilitar servidor 1
+2026-11 -22 18:51:43 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 18:51:43 |INFO | Servidor 1 foi desativado!
+2026-11 -22 18:51:43 |INFO | Tentativa redundante de desabilitar servidor 4
+2026-11 -22 18:51:43 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 18:51:43 |INFO | Servidor 4 foi desativado!
+2026-11 -22 18:52:25 |INFO | Servidor 0 habilitado!
+2026-11 -22 18:52:25 |INFO | Servidor 1 habilitado!
+2026-11 -22 18:52:25 |INFO | Servidor 4 habilitado!
+2026-11 -22 18:58:33 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:58:33 |INFO | Servidor 0 desabilitado!
+2026-11 -22 18:58:33 |INFO | Processo do servidor 0 encerrado!
+2026-11 -22 18:58:33 |INFO | Servidor 1 desabilitado!
+2026-11 -22 18:58:33 |INFO | Processo do servidor 1 encerrado!
+2026-11 -22 18:58:33 |INFO | Servidor 4 desabilitado!
+2026-11 -22 18:58:33 |INFO | Processo do servidor 4 encerrado!
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:20 |ERROR | Falha ao iniciar servidor 0. Código de saída: 1
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:20 |ERROR | Falha ao iniciar servidor 1. Código de saída: 1
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:20 |ERROR | Falha ao iniciar servidor 4. Código de saída: 1
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:54 |ERROR | Falha ao iniciar servidor 0. Código de saída: 0
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:54 |ERROR | Falha ao iniciar servidor 1. Código de saída: 0
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 18:59:55 |ERROR | Falha ao iniciar servidor 4. Código de saída: 0
+2026-11 -22 19:00:09 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:00:10 |ERROR | Falha ao iniciar servidor 0. Código de saída: 0
+2026-11 -22 19:00:10 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:00:10 |ERROR | Falha ao iniciar servidor 1. Código de saída: 0
+2026-11 -22 19:00:10 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:00:10 |ERROR | Falha ao iniciar servidor 4. Código de saída: 0
+2026-11 -22 19:05:11 |INFO | Servidor 0 habilitado!
+2026-11 -22 19:05:11 |INFO | Servidor 1 habilitado!
+2026-11 -22 19:05:11 |INFO | Servidor 4 habilitado!
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:05:24 |ERROR | Falha ao iniciar servidor 0. Código de saída: 0
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:05:24 |ERROR | Falha ao iniciar servidor 1. Código de saída: 0
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:05:25 |ERROR | Falha ao iniciar servidor 4. Código de saída: 0
+2026-11 -22 19:06:56 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11 -22 19:08:14 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:09:04 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:11:22 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:13:19 |ERROR | Falha ao iniciar servidor 0. Código de saída: 0
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:13:19 |ERROR | Falha ao iniciar servidor 1. Código de saída: 0
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:13:19 |ERROR | Falha ao iniciar servidor 4. Código de saída: 0
+2026-11-22 19:21:44 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:22:20 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:29:53 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:30:13 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:34:29 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:34:52 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:35:02 |INFO | Servidor 0 habilitado!
+2026-11-22 19:35:02 |INFO | Servidor 1 habilitado!
+2026-11-22 19:35:02 |INFO | Servidor 4 habilitado!
+2026-11-22 19:35:13 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:35:13 |ERROR | Falha ao iniciar servidor 0. Código de saída: 0
+2026-11-22 19:35:13 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:35:14 |ERROR | Falha ao iniciar servidor 1. Código de saída: 0
+2026-11-22 19:35:14 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:35:14 |ERROR | Falha ao iniciar servidor 4. Código de saída: 0
+2026-11-22 19:39:13 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:39:20 |INFO | Processo do servidor 0 encerrado!
+2026-11-22 19:39:20 |INFO | Servidor 0 foi desativado!
+2026-11-22 19:39:20 |INFO | Processo do servidor 1 encerrado!
+2026-11-22 19:39:20 |INFO | Servidor 1 foi desativado!
+2026-11-22 19:39:20 |INFO | Processo do servidor 4 encerrado!
+2026-11-22 19:39:20 |INFO | Servidor 4 foi desativado!
+2026-11-22 19:39:41 |INFO | Servidor 0 desabilitado!
+2026-11-22 19:39:41 |INFO | Servidor 1 desabilitado!
+2026-11-22 19:39:41 |INFO | Servidor 4 desabilitado!
+2026-11-22 19:41:05 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:41:15 |INFO | Servidor 0 habilitado!
+2026-11-22 19:41:15 |INFO | Servidor 1 habilitado!
+2026-11-22 19:41:15 |INFO | Servidor 4 habilitado!
+2026-11-22 19:41:22 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:41:22 |INFO | Server Escutando em 127.0.0.1 e 65532
+2026-11-22 19:41:23 |INFO | Processo do servidor 0 iniciado!
+2026-11-22 19:41:23 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:41:23 |INFO | Server Escutando em 127.0.0.1 e 65522
+2026-11-22 19:41:23 |INFO | Processo do servidor 1 iniciado!
+2026-11-22 19:41:23 |INFO | Arquivo de logs -> Server <- iniciado!
+2026-11-22 19:41:23 |INFO | Server Escutando em 127.0.0.1 e 65111
+2026-11-22 19:41:23 |INFO | Processo do servidor 4 iniciado!
+2026-11-22 19:48:41 |INFO | Servidor 127.0.0.1:65532 encerrado
+2026-11-22 19:48:41 |INFO | Servidor 127.0.0.1:65522 encerrado
+2026-11-22 19:48:41 |INFO | Servidor 127.0.0.1:65111 encerrado

@@ -6,10 +6,10 @@ def test_servers_create():
 
     servers = Server.servers_create(3)
 
-    assert len(servers) == 3
-    assert servers[0].id == 0
-    assert servers[1].id == 1
-    assert servers[2].id == 2
+    assert len(servers)             == 3
+    assert servers[0].id            == 0
+    assert servers[1].id            == 1
+    assert servers[2].id            == 2
     assert all(server.status_server == "DOWN" for server in servers)
 
     print("OK: três servidores criados e inicialmente DOWN.")
@@ -30,7 +30,7 @@ def test_active_all_servers():
     print("\n--- Teste: active_all_servers ---")
 
     servers = Server.servers_create(3)
-    result = Server.active_all_servers(servers)
+    result  = Server.active_all_servers(servers)
 
     assert result == "OK"
     assert all(server.status_server == "UP" for server in servers)
@@ -44,7 +44,7 @@ def test_desactive_all_servers():
     servers = Server.servers_create(3)
     Server.active_all_servers(servers)
 
-    result = Server.desactive_all_servers(servers)
+    result  = Server.desactive_all_servers(servers)
 
     assert result == "OK"
     assert all(server.status_server == "DOWN" for server in servers)
@@ -57,9 +57,9 @@ def test_active_server():
 
     servers = Server.servers_create(3)
 
-    result = Server.active_server(servers, 1)
+    result  = Server.active_server(servers, 1)
 
-    assert result == "OK"
+    assert result                   == "OK"
     assert servers[0].status_server == "DOWN"
     assert servers[1].status_server == "UP"
     assert servers[2].status_server == "DOWN"
@@ -73,9 +73,9 @@ def test_desactive_server():
     servers = Server.servers_create(3)
     Server.active_all_servers(servers)
 
-    result = Server.desactive_server(servers, 1)
+    result  = Server.desactive_server(servers, 1)
 
-    assert result == "OK"
+    assert result                   == "OK"
     assert servers[0].status_server == "UP"
     assert servers[1].status_server == "DOWN"
     assert servers[2].status_server == "UP"
