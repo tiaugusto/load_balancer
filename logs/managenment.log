@@ -1,0 +1,727 @@
+2026-11 -22 01:10:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:10:24 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:30 |INFO | Escolhido 1 opção. 
+2026-11 -22 01:10:30 |INFO | Lista de Servidores apresentada.
+2026-11 -22 01:10:30 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:31 |INFO | Escolhido 2 opção. 
+2026-11 -22 01:10:31 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:32 |INFO | Escolhido 3 opção. 
+2026-11 -22 01:10:32 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:33 |INFO | Escolhido d opção. 
+2026-11 -22 01:10:33 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:35 |INFO | Escolhido 9 opção. 
+2026-11 -22 01:10:35 |INFO | Script finalizado.
+2026-11 -22 01:10:35 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:37 |INFO | Escolhido 9 opção. 
+2026-11 -22 01:10:37 |INFO | Script finalizado.
+2026-11 -22 01:10:37 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:43 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:10:43 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:46 |INFO | Escolhido 3 opção. 
+2026-11 -22 01:10:46 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:46 |INFO | Escolhido 4 opção. 
+2026-11 -22 01:10:46 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:47 |INFO | Escolhido 6 opção. 
+2026-11 -22 01:10:47 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:48 |INFO | Escolhido 9 opção. 
+2026-11 -22 01:10:48 |INFO | Script finalizado.
+2026-11 -22 01:10:48 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:10:50 |INFO | Escolhido 9 opção. 
+2026-11 -22 01:10:50 |INFO | Script finalizado.
+2026-11 -22 01:10:50 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:11:21 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:11:21 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:11:22 |INFO | Escolhido 3 opção. 
+2026-11 -22 01:11:22 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:11:23 |INFO | Escolhido 5 opção. 
+2026-11 -22 01:11:23 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:11:23 |INFO | Escolhido 6 opção. 
+2026-11 -22 01:11:23 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:11:24 |INFO | Escolhido 9 opção. 
+2026-11 -22 01:11:24 |INFO | Script finalizado.
+2026-11 -22 01:23:17 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:25:13 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:29:57 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:32:48 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:32:48 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:32:51 |INFO | Escolhido 1 opção. 
+2026-11 -22 01:32:51 |INFO | Lista de Servidores apresentada.
+2026-11 -22 01:32:51 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:33:26 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 01:33:26 |INFO | Iniciado Menu de Operações
+2026-11 -22 01:33:28 |INFO | Escolhido 1 opção. 
+2026-11 -22 01:33:28 |INFO | Lista de Servidores apresentada.
+2026-11 -22 01:33:28 |INFO | Iniciado Menu de Operações
+2026-11 -22 02:24:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:24:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:25:36 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:25:36 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:27:19 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:27:19 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:27:21 |INFO | Escolhida opção 1
+2026-11 -22 02:27:21 |INFO | Lista de servidores apresentada.
+2026-11 -22 02:27:26 |INFO | Escolhida opção 2
+2026-11 -22 02:27:38 |INFO | Criação de servidor: OK
+2026-11 -22 02:27:58 |INFO | Escolhida opção from management.configure_logs import managenment_logs
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: from management.configure_logs import managenment_logs
+2026-11 -22 02:27:58 |INFO | Escolhida opção from servers.Table import ServerTable
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: from servers.Table import ServerTable
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção table = ServerTable()
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: table = ServerTable()
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resposta = ""
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resposta = ""
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção while resposta != "9":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: while resposta != "9":
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("\n------- Load Balanced Menu -------\n")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("\n------- Load Balanced Menu -------\n")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("Menu de operações, escolha:\n")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("Menu de operações, escolha:\n")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("1 - Ver lista de servidores")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("1 - Ver lista de servidores")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("2 - Adicionar novo servidor")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("2 - Adicionar novo servidor")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("3 - Deletar servidor")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("3 - Deletar servidor")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("4 - Ativar servidor")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("4 - Ativar servidor")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("5 - Desativar servidor")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("5 - Desativar servidor")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("6 - Ativar todos os servidores")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("6 - Ativar todos os servidores")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("7 - Desativar todos os servidores")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("7 - Desativar todos os servidores")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("8 - Informações dos alunos")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("8 - Informações dos alunos")
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("9 - Sair")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("9 - Sair")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resposta = input("\nResposta: ")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resposta = input("\nResposta: ")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção managenment_logs.info(f"Escolhida opção {resposta}")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: managenment_logs.info(f"Escolhida opção {resposta}")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção match resposta:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: match resposta:
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "1":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "1":
+2026-11 -22 02:27:58 |INFO | Escolhida opção table.list_servers()
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: table.list_servers()
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção managenment_logs.info(
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: managenment_logs.info(
+2026-11 -22 02:27:58 |INFO | Escolhida opção "Lista de servidores apresentada."
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: "Lista de servidores apresentada."
+2026-11 -22 02:27:58 |INFO | Escolhida opção )
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: )
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "2":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "2":
+2026-11 -22 02:27:58 |INFO | Escolhida opção ip = input("Digite o IP do servidor: ")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: ip = input("Digite o IP do servidor: ")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção try:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:27:58 |INFO | Escolhida opção port = int(input("Digite a porta do servidor: "))
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: port = int(input("Digite a porta do servidor: "))
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.servers_create(ip, port)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.servers_create(ip, port)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("Porta inválida!")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("Porta inválida!")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "3":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "3":
+2026-11 -22 02:27:58 |INFO | Escolhida opção try:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:27:58 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.destroy_server(server_id)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.destroy_server(server_id)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "4":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "4":
+2026-11 -22 02:27:58 |INFO | Escolhida opção try:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:27:58 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.active_server(server_id)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.active_server(server_id)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "5":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "5":
+2026-11 -22 02:27:58 |INFO | Escolhida opção try:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:27:58 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.desactive_server(server_id)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.desactive_server(server_id)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "6":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "6":
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.active_all_servers()
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.active_all_servers()
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "7":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "7":
+2026-11 -22 02:27:58 |INFO | Escolhida opção resultado = table.desactive_all_servers()
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: resultado = table.desactive_all_servers()
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "8":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "8":
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("\nGabriel Oliveira de Matos - GRR 20240011")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("\nGabriel Oliveira de Matos - GRR 20240011")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção managenment_logs.info(
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: managenment_logs.info(
+2026-11 -22 02:27:58 |INFO | Escolhida opção "Informações dos autores/Alunos apresentadas."
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: "Informações dos autores/Alunos apresentadas."
+2026-11 -22 02:27:58 |INFO | Escolhida opção )
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: )
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case "9":
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case "9":
+2026-11 -22 02:27:58 |INFO | Escolhida opção print("\nScript finalizado!\n")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: print("\nScript finalizado!\n")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção managenment_logs.info("Script finalizado.")
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: managenment_logs.info("Script finalizado.")
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção table.desactive_all_servers()
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: table.desactive_all_servers()
+2026-11 -22 02:27:58 |INFO | Escolhida opção 
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:27:58 |INFO | Escolhida opção case _:
+2026-11 -22 02:27:58 |WARNING | Opção inválida selecionada: case _:
+2026-11 -22 02:28:00 |INFO | Escolhida opção print("Valor não reconhecido, tente novamente!")5
+2026-11 -22 02:28:00 |WARNING | Opção inválida selecionada: print("Valor não reconhecido, tente novamente!")5
+2026-11 -22 02:28:04 |INFO | Escolhida opção 3
+2026-11 -22 02:28:07 |INFO | Exclusão do servidor 6: Servidor não encontrado
+2026-11 -22 02:28:17 |INFO | Escolhida opção 3
+2026-11 -22 02:28:20 |INFO | Exclusão do servidor 5: OK
+2026-11 -22 02:28:29 |INFO | Escolhida opção 1
+2026-11 -22 02:28:29 |INFO | Lista de servidores apresentada.
+2026-11 -22 02:28:35 |INFO | Escolhida opção 6
+2026-11 -22 02:28:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:28:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:28:36 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:28:36 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0]
+2026-11 -22 02:28:44 |INFO | Escolhida opção 5
+2026-11 -22 02:28:47 |WARNING | Tentativa de desativação com ID inválido.
+2026-11 -22 02:28:51 |INFO | Escolhida opção 7
+2026-11 -22 02:28:51 |INFO | Desativação de todos os servidores: OK
+2026-11 -22 02:29:10 |INFO | Escolhida opção 6
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:29:10 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 02:29:11 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0]
+2026-11 -22 02:29:29 |INFO | Escolhida opção from management.configure_logs import managenment_logs
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: from management.configure_logs import managenment_logs
+2026-11 -22 02:29:29 |INFO | Escolhida opção from servers.Table import ServerTable
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: from servers.Table import ServerTable
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção table = ServerTable()
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: table = ServerTable()
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resposta = ""
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resposta = ""
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção while resposta != "9":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: while resposta != "9":
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("\n------- Load Balanced Menu -------\n")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("\n------- Load Balanced Menu -------\n")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("Menu de operações, escolha:\n")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("Menu de operações, escolha:\n")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("1 - Ver lista de servidores")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("1 - Ver lista de servidores")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("2 - Adicionar novo servidor")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("2 - Adicionar novo servidor")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("3 - Deletar servidor")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("3 - Deletar servidor")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("4 - Ativar servidor")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("4 - Ativar servidor")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("5 - Desativar servidor")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("5 - Desativar servidor")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("6 - Ativar todos os servidores")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("6 - Ativar todos os servidores")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("7 - Desativar todos os servidores")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("7 - Desativar todos os servidores")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("8 - Informações dos alunos")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("8 - Informações dos alunos")
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("9 - Sair")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("9 - Sair")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resposta = input("\nResposta: ")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resposta = input("\nResposta: ")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção managenment_logs.info(f"Escolhida opção {resposta}")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: managenment_logs.info(f"Escolhida opção {resposta}")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção match resposta:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: match resposta:
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "1":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "1":
+2026-11 -22 02:29:29 |INFO | Escolhida opção table.list_servers()
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: table.list_servers()
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção managenment_logs.info(
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: managenment_logs.info(
+2026-11 -22 02:29:29 |INFO | Escolhida opção "Lista de servidores apresentada."
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: "Lista de servidores apresentada."
+2026-11 -22 02:29:29 |INFO | Escolhida opção )
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: )
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "2":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "2":
+2026-11 -22 02:29:29 |INFO | Escolhida opção ip = input("Digite o IP do servidor: ")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: ip = input("Digite o IP do servidor: ")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção try:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:29:29 |INFO | Escolhida opção port = int(input("Digite a porta do servidor: "))
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: port = int(input("Digite a porta do servidor: "))
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.servers_create(ip, port)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.servers_create(ip, port)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("Porta inválida!")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("Porta inválida!")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "3":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "3":
+2026-11 -22 02:29:29 |INFO | Escolhida opção try:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:29:29 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.destroy_server(server_id)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.destroy_server(server_id)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "4":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "4":
+2026-11 -22 02:29:29 |INFO | Escolhida opção try:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:29:29 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.active_server(server_id)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.active_server(server_id)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "5":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "5":
+2026-11 -22 02:29:29 |INFO | Escolhida opção try:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: try:
+2026-11 -22 02:29:29 |INFO | Escolhida opção server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: server_id = int(input("Digite o ID do servidor: "))
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.desactive_server(server_id)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.desactive_server(server_id)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção except ValueError:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: except ValueError:
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("ID inválido!")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("ID inválido!")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "6":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "6":
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.active_all_servers()
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.active_all_servers()
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "7":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "7":
+2026-11 -22 02:29:29 |INFO | Escolhida opção resultado = table.desactive_all_servers()
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: resultado = table.desactive_all_servers()
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção print(resultado)
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print(resultado)
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "8":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "8":
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("\nGabriel Oliveira de Matos - GRR 20240011")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("\nGabriel Oliveira de Matos - GRR 20240011")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção managenment_logs.info(
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: managenment_logs.info(
+2026-11 -22 02:29:29 |INFO | Escolhida opção "Informações dos autores/Alunos apresentadas."
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: "Informações dos autores/Alunos apresentadas."
+2026-11 -22 02:29:29 |INFO | Escolhida opção )
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: )
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case "9":
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case "9":
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("\nScript finalizado!\n")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("\nScript finalizado!\n")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção managenment_logs.info("Script finalizado.")
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: managenment_logs.info("Script finalizado.")
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção table.desactive_all_servers()
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: table.desactive_all_servers()
+2026-11 -22 02:29:29 |INFO | Escolhida opção 
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: 
+2026-11 -22 02:29:29 |INFO | Escolhida opção case _:
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: case _:
+2026-11 -22 02:29:29 |INFO | Escolhida opção print("Valor não reconhecido, tente novamente!")8
+2026-11 -22 02:29:29 |WARNING | Opção inválida selecionada: print("Valor não reconhecido, tente novamente!")8
+2026-11 -22 02:29:49 |INFO | Escolhida opção 8
+2026-11 -22 02:29:49 |INFO | Informações dos autores/Alunos apresentadas.
+2026-11 -22 02:29:59 |INFO | Escolhida opção 7
+2026-11 -22 02:29:59 |INFO | Desativação de todos os servidores: OK
+2026-11 -22 02:30:02 |INFO | Escolhida opção 0
+2026-11 -22 02:30:02 |WARNING | Opção inválida selecionada: 0
+2026-11 -22 02:30:03 |INFO | Escolhida opção 9
+2026-11 -22 02:30:03 |INFO | Script finalizado.
+2026-11 -22 15:34:27 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:34:31 |INFO | Escolhida opção 1
+2026-11 -22 15:34:31 |INFO | Lista de servidores apresentada.
+2026-11 -22 15:34:40 |INFO | Escolhida opção 2
+2026-11 -22 15:34:53 |INFO | Criação de servidor: OK
+2026-11 -22 15:34:55 |INFO | Escolhida opção 1
+2026-11 -22 15:34:55 |INFO | Lista de servidores apresentada.
+2026-11 -22 15:35:52 |INFO | Escolhida opção 3
+2026-11 -22 15:35:55 |INFO | Exclusão do servidor 5: OK
+2026-11 -22 15:35:57 |INFO | Escolhida opção 1
+2026-11 -22 15:35:57 |INFO | Lista de servidores apresentada.
+2026-11 -22 15:36:09 |INFO | Escolhida opção 6
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:36:09 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:36:09 |INFO | Ativação de todos os servidores: OK
+2026-11 -22 15:37:28 |INFO | Escolhida opção 8
+2026-11 -22 15:37:28 |INFO | Informações dos autores/Alunos apresentadas.
+2026-11 -22 15:37:33 |INFO | Escolhida opção 1
+2026-11 -22 15:37:33 |INFO | Lista de servidores apresentada.
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:39:35 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:39:37 |INFO | Escolhida opção 1
+2026-11 -22 15:39:37 |INFO | Lista de servidores apresentada.
+2026-11 -22 15:41:50 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:41:50 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:41:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:41:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:42:51 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:43:26 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:43:27 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:44:26 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 15:44:27 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:45:28 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:48:28 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:48:32 |INFO | Escolhida opção 1
+2026-11 -22 18:48:32 |INFO | Lista de servidores apresentada.
+2026-11 -22 18:48:47 |INFO | Escolhida opção 2
+2026-11 -22 18:48:49 |WARNING | Opção inválida selecionada: opcao_invalida
+2026-11 -22 18:48:53 |INFO | Escolhida opção 2
+2026-11 -22 18:49:00 |WARNING | Opção inválida selecionada: opcao_invalida
+2026-11 -22 18:49:07 |INFO | Escolhida opção 2
+2026-11 -22 18:49:22 |INFO | Escolhida opção 15
+2026-11 -22 18:50:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:50:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:50:25 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:50:25 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:50:52 |INFO | Escolhida opção 15
+2026-11 -22 18:51:30 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:51:30 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:51:37 |INFO | Escolhida opção 3
+2026-11 -22 18:51:43 |INFO | Escolhida opção 49
+2026-11 -22 18:51:43 |INFO | Desativação de todos os servidores: OK
+2026-11 -22 18:51:48 |INFO | Escolhida opção 1
+2026-11 -22 18:51:48 |INFO | Lista de servidores apresentada.
+2026-11 -22 18:51:55 |INFO | Escolhida opção 6
+2026-11 -22 18:51:55 |WARNING | Opção inválida selecionada: 6
+2026-11 -22 18:51:57 |INFO | Escolhida opção 5
+2026-11 -22 18:51:57 |INFO | Informações dos autores/Alunos apresentadas.
+2026-11 -22 18:52:08 |INFO | Escolhida opção 1
+2026-11 -22 18:52:08 |INFO | Lista de servidores apresentada.
+2026-11 -22 18:52:15 |INFO | Escolhida opção 2
+2026-11 -22 18:52:25 |INFO | Escolhida opção 28
+2026-11 -22 18:52:25 |INFO | Habilitação de todos os servidores: OK
+2026-11 -22 18:52:28 |INFO | Escolhida opção 1
+2026-11 -22 18:52:28 |INFO | Lista de servidores apresentada.
+2026-11 -22 18:52:35 |INFO | Escolhida opção 3
+2026-11 -22 18:52:39 |INFO | Escolhida opção 46
+2026-11 -22 18:58:33 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:58:44 |INFO | Escolhida opção 1
+2026-11 -22 18:58:44 |INFO | Lista de servidores apresentada.
+2026-11 -22 18:58:49 |INFO | Escolhida opção 3
+2026-11 -22 18:58:52 |INFO | Escolhida opção 46
+2026-11 -22 18:58:55 |WARNING | Servidor 6 não encontrado para ativação.
+2026-11 -22 18:59:16 |INFO | Escolhida opção 3
+2026-11 -22 18:59:20 |INFO | Escolhida opção 48
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:20 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11 -22 18:59:48 |INFO | Escolhida opção [A
+2026-11 -22 18:59:48 |WARNING | Opção inválida selecionada: [A
+2026-11 -22 18:59:51 |INFO | Escolhida opção 3
+2026-11 -22 18:59:54 |INFO | Escolhida opção 48
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:54 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 18:59:55 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11 -22 19:00:00 |INFO | Escolhida opção 1
+2026-11 -22 19:00:00 |INFO | Lista de servidores apresentada.
+2026-11 -22 19:00:04 |INFO | Escolhida opção 8
+2026-11 -22 19:00:04 |WARNING | Opção inválida selecionada: 8
+2026-11 -22 19:00:08 |INFO | Escolhida opção 3
+2026-11 -22 19:00:09 |INFO | Escolhida opção 48
+2026-11 -22 19:00:09 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:00:10 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:00:10 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:00:10 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11 -22 19:05:02 |INFO | Escolhida opção 1
+2026-11 -22 19:05:02 |INFO | Lista de servidores apresentada.
+2026-11 -22 19:05:07 |INFO | Escolhida opção 2
+2026-11 -22 19:05:11 |INFO | Escolhida opção 28
+2026-11 -22 19:05:11 |INFO | Habilitação de todos os servidores: OK
+2026-11 -22 19:05:15 |INFO | Escolhida opção 1
+2026-11 -22 19:05:16 |INFO | Lista de servidores apresentada.
+2026-11 -22 19:05:20 |INFO | Escolhida opção 3
+2026-11 -22 19:05:24 |INFO | Escolhida opção 48
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:05:24 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:05:25 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11 -22 19:06:56 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:08:14 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11 -22 19:08:15 |INFO | Escolhida opção 
+2026-11 -22 19:08:15 |WARNING | Opção inválida selecionada: 
+2026-11 -22 19:08:16 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:09:04 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:09:07 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:11:22 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:11:43 |INFO | Escolhida opção 1
+2026-11-22 19:11:43 |INFO | Lista de servidores apresentada.
+2026-11-22 19:11:48 |INFO | Escolhida opção 2
+2026-11-22 19:13:01 |INFO | Escolhida opção 22
+2026-11-22 19:13:01 |WARNING | Opção inválida selecionada: 22
+2026-11-22 19:13:07 |INFO | Escolhida opção 3
+2026-11-22 19:13:10 |INFO | Escolhida opção 41
+2026-11-22 19:13:10 |WARNING | Opção inválida selecionada: 41
+2026-11-22 19:13:12 |INFO | Escolhida opção 1
+2026-11-22 19:13:12 |INFO | Lista de servidores apresentada.
+2026-11-22 19:13:16 |INFO | Escolhida opção 3
+2026-11-22 19:13:19 |INFO | Escolhida opção 48
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:13:19 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:13:20 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11-22 19:21:42 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:21:44 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:21:47 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:22:20 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:29:52 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:29:53 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:29:55 |INFO | Escolhida opção 13
+2026-11-22 19:29:58 |INFO | Escolhida opção 86
+2026-11-22 19:30:01 |WARNING | Servidor 3 não encontrado para troca de porta.
+2026-11-22 19:30:10 |INFO | Escolhida opção 13
+2026-11-22 19:30:11 |INFO | Escolhida opção 15
+2026-11-22 19:30:13 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:30:16 |INFO | Escolhida opção 13
+2026-11-22 19:30:18 |INFO | Escolhida opção 14
+2026-11-22 19:30:22 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:34:29 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:34:49 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:34:52 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:34:53 |INFO | Escolhida opção 1
+2026-11-22 19:34:53 |INFO | Lista de servidores apresentada.
+2026-11-22 19:34:56 |INFO | Escolhida opção 2
+2026-11-22 19:35:02 |INFO | Escolhida opção 28
+2026-11-22 19:35:02 |INFO | Habilitação de todos os servidores: OK
+2026-11-22 19:35:06 |INFO | Escolhida opção 1
+2026-11-22 19:35:06 |INFO | Lista de servidores apresentada.
+2026-11-22 19:35:09 |INFO | Escolhida opção 3
+2026-11-22 19:35:13 |INFO | Escolhida opção 48
+2026-11-22 19:35:13 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:35:13 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:35:14 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:35:14 |INFO | Ativação de todos os servidores: Falha ao ativar os servidores: [0, 1, 4]
+2026-11-22 19:38:53 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:39:13 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:39:17 |INFO | Escolhida opção 3
+2026-11-22 19:39:20 |INFO | Escolhida opção 49
+2026-11-22 19:39:20 |INFO | Desativação de todos os servidores: OK
+2026-11-22 19:39:24 |INFO | Escolhida opção 2
+2026-11-22 19:39:30 |INFO | Escolhida opção 22
+2026-11-22 19:39:30 |WARNING | Opção inválida selecionada: 22
+2026-11-22 19:39:35 |INFO | Escolhida opção 2
+2026-11-22 19:39:41 |INFO | Escolhida opção 29
+2026-11-22 19:39:41 |INFO | Desabilitação de todos os servidores: OK
+2026-11-22 19:39:47 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!
+2026-11-22 19:41:05 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:41:10 |INFO | Escolhida opção 2
+2026-11-22 19:41:15 |INFO | Escolhida opção 28
+2026-11-22 19:41:15 |INFO | Habilitação de todos os servidores: OK
+2026-11-22 19:41:19 |INFO | Escolhida opção 3
+2026-11-22 19:41:22 |INFO | Escolhida opção 48
+2026-11-22 19:41:22 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:41:23 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:41:23 |INFO | Arquivo de logs -> managenment <- iniciado!
+2026-11-22 19:41:23 |INFO | Ativação de todos os servidores: OK
+2026-11-22 19:43:40 |INFO | Escolhida opção 1
+2026-11-22 19:43:40 |INFO | Lista de servidores apresentada.
+2026-11-22 19:48:41 |WARNING | O menu foi finalizado por meio do CTRL + C. Sem garantia de que todos os processos foram finalizados formalmente!

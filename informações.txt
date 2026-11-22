@@ -1,0 +1,8 @@
+https://docs.python.org/3/library/pathlib.html
+
+
+
+
+nc -vz 127.0.0.1 65532
+nc -vz 127.0.0.1 65522
+nc -vz 127.0.0.1 65111
