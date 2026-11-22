@@ -1,4 +1,4 @@
-from server_class import Server
+from servers.server_class import Server
 
 
 def test_servers_create():

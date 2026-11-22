@@ -1,4 +1,4 @@
-from configure_logs import configure_logs
+from management.configure_logs import configure_logs
 
 logger = configure_logs("aloha")
 

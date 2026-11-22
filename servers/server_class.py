@@ -2,7 +2,7 @@ import json
 import threading
 from pathlib import Path
 
-from configure_logs import server_logs
+from management.configure_logs import server_logs
 
 
 class Server:
@@ -20,7 +20,7 @@ class Server:
 
 class ServerTable:
 
-    def __init__(self, filename="servers.json"):
+    def __init__(self, filename="tabela_servidores.json"):
         self.filename = Path(__file__).parent / filename
         self.servers = []
         self.num_total_connections = 0
@@ -51,7 +51,7 @@ class ServerTable:
                     item["status_server"]
                 )
 
-                # Conexões antigas não existem após reiniciar o LB.
+                #Reescreve a tabela inteira
                 server.num_connections = 0
 
                 self.servers.append(server)
@@ -142,10 +142,7 @@ class ServerTable:
                 if server.id == id:
                     server.status_server = status
                     self._save()
-
-                    server_logs.info(
-                        f"Servidor {id} alterado para {status}"
-                    )
+                    server_logs.info(f"Servidor {id} alterado para {status}")
 
                     return "OK"
 
@@ -161,11 +158,7 @@ class ServerTable:
                     server.port = port
                     self._save()
 
-                    server_logs.info(
-                        f"Porta do servidor {id} trocada de "
-                        f"{old_port} para {port}!"
-                    )
-
+                    server_logs.info(f"Porta do servidor {id} trocada de {old_port} para {port}!")
                     return "OK"
 
             return "Servidor não encontrado"
@@ -178,10 +171,7 @@ class ServerTable:
                     server.ip = ip
                     self._save()
 
-                    server_logs.info(
-                        f"IP do servidor {id} trocado de "
-                        f"{old_ip} para {ip}!"
-                    )
+                    server_logs.info(f"IP do servidor {id} trocado de {old_ip} para {ip}!")
 
                     return "OK"
 
