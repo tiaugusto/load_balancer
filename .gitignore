@@ -1,15 +1,13 @@
-
 __pycache__/
 *.py[cod]
+logs/
+dist/
 venv/
 .venv/
 env/
-logs/
 *.log
-
 *.tmp
 *.bak
-
 .vscode/
 .idea/
 .DS_Store
